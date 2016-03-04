@@ -1,0 +1,26 @@
+{
+  "name": "mocha-image-compiler",
+  "version": "1.0.0",
+  "description": "Compiler for Mocha to allow for webpack-like importing of images, i.e",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --compilers png:.  --check-leaks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SteveWilshaw/mocha-image-compiler.git"
+  },
+  "keywords": [
+    "mocha"
+  ],
+  "author": "Steve Wilshaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SteveWilshaw/mocha-image-compiler/issues"
+  },
+  "homepage": "https://github.com/SteveWilshaw/mocha-image-compiler#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
