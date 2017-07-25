@@ -6,3 +6,4 @@ require.extensions['.png'] = loader;
 require.extensions['.jpg'] = loader;
 require.extensions['.gif'] = loader;
 require.extensions['.svg'] = loader;
+require.extensions['.ico'] = loader;
